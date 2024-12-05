@@ -2,7 +2,7 @@
 # Homepage configuration
 # See https://fontawesome.com/v5/search for icons options
 
-title: "DevOps"
+title: "Platform"
 subtitle: "Apps"
 logo: 'https://www.visaonoticias.com/userfiles/images/1-Captura%20de%20tela%20inteira%2001032021%20181603.jpg'
 # icon: "faas fa-skull-crossbones" # Optional icon
@@ -45,7 +45,7 @@ services:
   - name: "Cloud"
     icon: "fas fa-cloud"
     items:
-      - name: "AWS - Console "
+      - name: "AWS - Console"
         logo: 'https://static-00.iconduck.com/assets.00/aws-icon-2048x2048-274bm1xi.png'
         subtitle: "Account manager"
         tag: "app"
@@ -67,27 +67,6 @@ services:
   - name: "Monitoring"
     icon: "fas fa-cloud"
     items:
-
-      - name: "Grafana"
-        logo: "https://cdn.icon-icons.com/icons2/2699/PNG/512/grafana_logo_icon_171048.png"
-        subtitle: "The open observability platform"
-        tag: "app"
-        url: "https://grafana.almee.com.br/"  
-        
-      - name: "SonarQube"
-        logo: "https://user-images.githubusercontent.com/15386828/118396592-e331c880-b658-11eb-8fdc-7426520c691f.png"
-        subtitle: "Accelerate Code Review"
-        tag: "app"
-        keywords: "self hosted reddit"
-        url: "https://sonarqube.almee.com.br/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Prometheus"
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/2066px-Prometheus_software_logo.svg.png"
-        subtitle: "Monitoring system & time series database"
-        tag: "app"
-        url: "https://prometheus.almee.com.br"
-
       - name: "Skyone"
         logo: "https://www.site24x7.com/app/cus_image?user_id=spwRXUhOTc2Ro48Cu7flz3n55AWP_CwxXRw10CKThuvSSeF2m8avybiROB2PtNEVB0CwfuX6Z_QjWTukbXMh4JoVCdtL12R6Sz5Z6CYYy7jK01ZvF1kx6pwpU0xZAGzu"
         subtitle: "Monitoring Status"
@@ -104,20 +83,13 @@ services:
         logo: "https://img.site24x7static.com/images/site24x7-logo-web.png"
         subtitle: "Monitoring Mega"
         tag: "app"
-        url: "       https://www.site24x7.com/public/dashboard/uRrUyVf-_6bUDgP-GpK2UK63Gbc6JKk1WXjx7y5VypaBi08gwLH5PooKxKUWiiz0zMN5-bq7FQmL7qi__FL3Vki_vAe_Mhl9dsMVnwVs7LEjQZ6P9_Bl9nEkFDsy_Ewx"
+        url: "https://www.site24x7.com/public/dashboard/uRrUyVf-_6bUDgP-GpK2UK63Gbc6JKk1WXjx7y5VypaBi08gwLH5PooKxKUWiiz0zMN5-bq7FQmL7qi__FL3Vki_vAe_Mhl9dsMVnwVs7LEjQZ6P9_Bl9nEkFDsy_Ewx"
 
       - name: "Robot"
         logo: "https://img.site24x7static.com/images/site24x7-logo-web.png"
         subtitle: "Monitoring Robot"
         tag: "app"
         url: "https://www.site24x7.com/public/dashboard/1WSKt8WyLOlW0F-nIi_AzSmiwJh4IaQoqoCeCBOUIMCBi08gwLH5PooKxKUWiiz0zMN5-bq7FQmL7qi__FL3Viplfiup4rUKHHdwLqQzD3DXe5OAYwy_XxJqwBUV7V6P"
-
-      - name: "RM Totvs"
-        logo: "https://img.site24x7static.com/images/site24x7-logo-web.png"
-        subtitle: "Monitoring RM Totvs"
-        tag: "app"
-        url: "https://www.site24x7.com/public/dashboard/_PdvTcFlcdFaSH99X5Ap0BZo6KdGRh3B2OfJovIzSMJ4TiLOJFFXN3wT0kJ9oeeiipy_7pHi9STm44Bbq9KCczZcmpXWNi2U5hDxUGECrAjlTlJHEBxmSFnEnv-osHxy"
-
 
   - name: "DevOps Framework"
     icon: "fas fa-cloud"
@@ -127,14 +99,6 @@ services:
         subtitle: "Data-Driven Spending"
         tag: "app"
         url: "https://almee.painel.cloud"
-
-      - name: "Jenkins"
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png"
-        subtitle: "CI/CD management"
-        tag: "app"
-        keywords: "self hosted reddit"
-        url: "https://jenkins.bild.com.br"
-        target: "_blank" # optional html a tag target attribute
 
       - name: "Terraform"
         logo: "https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png"
@@ -179,17 +143,17 @@ services:
         tag: "app"
         url: "https://app.cloudcraft.co/" 
 
-      - name: "Portal Prime"
-        logo: "https://portal-prime.sou.cloud/content/images/company/soucloud/logo.png?bdce4a7e-2fc4-4b63-9994-a73bc07a1416"
-        subtitle: "Data-Driven Spending"
-        tag: "app"
-        url: "https://portal-prime.sou.cloud/"
-
       - name: "Locust"
         logo: "https://locust.bildvitta.com.br/static/img/logo.png?v=2.15.1"
         subtitle: "Infrastructure architecture tester"
         tag: "app"
         url: "https://locust.bildvitta.com.br/" 
+
+      - name: "ArgoCD"
+        logo: "https://icon.icepanel.io/Technology/svg/Argo-CD.svg"
+        subtitle: "CICD architecture Deploy"
+        tag: "app"
+        url: "https://argocd.bildcloud.com.br/" 
 
 
   - name: "Help Desk"
@@ -208,12 +172,6 @@ services:
         subtitle: "Skyone Painel HelpDesk"
         tag: "app"
         url: "https://portal.skyone.cloud/dashboard"
-
-      - name: "Planne Demand DevOps"
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Microsoft_Planner_%282019%E2%80%93present%29.svg/1843px-Microsoft_Planner_%282019%E2%80%93present%29.svg.png"
-        subtitle: "DevOps Painel HelpDesk"
-        tag: "app"
-        url: "https://tasks.office.com/bildribeirao.onmicrosoft.com/pt-BR/Home/Planner/#/plantaskboard?groupId=ad3d37a1-2d94-43fe-aa43-11ba77088b10&planId=T0UYTVg6FUmNGTm6ZzaYj2QAB6tV"
 
       - name: "Bitly"
         logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Bit.ly_Logo.svg/2560px-Bit.ly_Logo.svg.png"
