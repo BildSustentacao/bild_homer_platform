@@ -120,7 +120,7 @@ services:
         url: "https://bildvitta.1password.com/home"  
         
       - name: "Whimsical"
-        logo: "https://ww2.freelogovectors.net/wp-content/uploads/2021/07/whimsical-logo-freelogovectors.net_.png?lossy=1&ssl=1"
+        logo: "https://whimsical.com/s/images/apple-touch-icon-180_df3b1343f6670c1fe2d90b1e1425bb08.png"
         subtitle: "Infrastructure architecture design"
         tag: "app"
         url: "https://whimsical.com/" 
@@ -154,6 +154,12 @@ services:
         subtitle: "CICD architecture Deploy"
         tag: "app"
         url: "https://argocd.bildcloud.com.br/" 
+
+      - name: "Rancher"
+        logo: "https://icon.icepanel.io/Technology/svg/Rancher.svg"
+        subtitle: "Connect Infrastructure Clusters EKS"
+        tag: "app"
+        url: "https://rancher.almee.com.br/" 
 
 
   - name: "Help Desk"
