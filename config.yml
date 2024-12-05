@@ -144,10 +144,10 @@ services:
         url: "https://app.cloudcraft.co/" 
 
       - name: "Locust"
-        logo: "https://locust.bildvitta.com.br/static/img/logo.png?v=2.15.1"
+        logo: "https://locust.bildcloud.com.br/static/img/logo.png?v=2.15.1"
         subtitle: "Infrastructure architecture tester"
         tag: "app"
-        url: "https://locust.bildvitta.com.br/" 
+        url: "https://locust.bildcloud.com.br/" 
 
       - name: "ArgoCD"
         logo: "https://icon.icepanel.io/Technology/svg/Argo-CD.svg"
