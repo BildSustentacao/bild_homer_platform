@@ -91,6 +91,31 @@ services:
         tag: "app"
         url: "https://www.site24x7.com/public/dashboard/1WSKt8WyLOlW0F-nIi_AzSmiwJh4IaQoqoCeCBOUIMCBi08gwLH5PooKxKUWiiz0zMN5-bq7FQmL7qi__FL3Viplfiup4rUKHHdwLqQzD3DXe5OAYwy_XxJqwBUV7V6P"
 
+      - name: "Blink"
+        logo: "https://img.site24x7static.com/images/site24x7-logo-web.png"
+        subtitle: "Monitoring Blink"
+        tag: "app"
+        url: "https://www.site24x7.com/public/dashboard/FztI2HP-zyAgqhJlaLD51UD5Qw26nf6fdKYOqAGgizTRJr3Y4nQAjxsfo3aNSkQ2Ukv_Z1zO3GRbV-3aflEYTmKoKLqgVgT_KedL-iaD40HlTlJHEBxmSFnEnv-osHxy"
+
+      - name: "VittaObras"
+        logo: "https://img.site24x7static.com/images/site24x7-logo-web.png"
+        subtitle: "Monitoring VittaObras"
+        tag: "app"
+        url: "https://www.site24x7.com/public/dashboard/zp2kPxTeZ9j1Vv6K0GdV7VpewLzYtLZEyqGGlH9RI6jRJr3Y4nQAjxsfo3aNSkQ2Ukv_Z1zO3GRbV-3aflEYTrxVtIHSdi1xfizbx21CKVU7BdHAh9M2smmTEvwFXcNV#"
+
+      - name: "Sys"
+        logo: "https://img.site24x7static.com/images/site24x7-logo-web.png"
+        subtitle: "Monitoring Sys"
+        tag: "app"
+        url: "https://www.site24x7.com/public/dashboard/tSVDFzzwPnLSpPFwbb_70iBXfqe_jg_8AJhVZuECL7jRJr3Y4nQAjxsfo3aNSkQ2Ukv_Z1zO3GRbV-3aflEYTqAYHPJe3lsDgpyINcuL5DvbET_opNWhJSSKbRYTtPCn"
+
+      - name: "API Obras"
+        logo: "https://img.site24x7static.com/images/site24x7-logo-web.png"
+        subtitle: "Monitoring API Obras"
+        tag: "app"
+        url: "https://www.site24x7.com/public/dashboard/NBk5OyRIy7jnlWKR1lX6rcnlCPlYc5ie6Fh18Wu9j_DRJr3Y4nQAjxsfo3aNSkQ2Ukv_Z1zO3GRbV-3aflEYTq34m4xHqKD1jH5TcajmaBolS-0Cd8XWzk006LtU2Rx6"
+
+
   - name: "DevOps Framework"
     icon: "fas fa-cloud"
     items:
@@ -161,6 +186,12 @@ services:
         tag: "app"
         url: "https://rancher.almee.com.br/" 
 
+      - name: "Asana Projects"
+        logo: "https://cdn.worldvectorlogo.com/logos/asana-logo.svg"
+        subtitle: "Gestao de Projetos"
+        tag: "app"
+        url: "https://app.asana.com/" 
+
 
   - name: "Help Desk"
     icon: "fas fa-cloud"
@@ -181,7 +212,7 @@ services:
 
       - name: "Bitly"
         logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Bit.ly_Logo.svg/2560px-Bit.ly_Logo.svg.png"
-        subtitle: "Dashboard Painel HelpDesk"
+        subtitle: "Dashboard Painel Redirect Sites"
         tag: "app"
         url: "https://bitly.com/a/sign_in?rd=/Bkbodul2wmD/bitlinks/"             
 
